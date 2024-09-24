@@ -8,9 +8,10 @@ def set_title(file):
     st.set_page_config(page_title=file_name, layout="wide")
     st.title(file_name)
 
-def image_resize(img_path, hsize):
-    image = Image.open(img_path)
+def image_resize(img_name, file, hsize):
+    path = './streamlit_images/' + Path(file).name[3:-3].lower() + "/" + img_name
+    image = Image.open(path)
     w, h = image.size
     w *= hsize / h
     
-    st.image(img_path, width=int(w))
+    st.image(path, width=int(w))
