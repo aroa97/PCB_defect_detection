@@ -48,7 +48,7 @@ with col2:
         st.subheader("인적사항")
         st.text("생년월일 : 1992.12.5")
         st.text("이메일 주소 : iibuzzii@naver.com")
-        st.markdown("**현재 세종교육에서 직업훈련(인공지능) 중**")
+        st.markdown("**세종교육에서 직업훈련(인공지능) 이수**")
 
         st.markdown("\n")
 
@@ -69,7 +69,7 @@ with col3:
         st.subheader("인적사항")
         st.text("생년월일 : 1983.08.23")
         st.text("이메일 주소 : wsoll@naver.com")
-        st.markdown("**현재 세종교육에서 직업훈련(인공지능) 중**")
+        st.markdown("**세종교육에서 직업훈련(인공지능) 이수**")
 
         st.markdown("\n")
 
